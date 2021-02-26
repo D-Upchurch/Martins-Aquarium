@@ -141,7 +141,7 @@ const fishCollection = [
 		name: "Pizza",
 		species: "Tuna",
 		inches: 40,
-		image: "tuna.jpg"
+		image: "fish.jpg"
 	},
 	{
 		saltWater: false,
@@ -150,7 +150,7 @@ const fishCollection = [
 		name: "Finn",
 		species: "Bass",
 		inches: 20,
-		image: "fish.jpeg",
+		image: "fish.jpg",
 	},
 	{
 		saltWater: true,
@@ -184,7 +184,7 @@ const fishCollection = [
 		harvestLocation: "Atlantic Sea",
 		name: "flipper",
 		inches: 12,
-		image: "orangefish.jpg",
+		image: "fish.jpg",
 		diet: "worms",
 		species: "garibaldi"
 	},
