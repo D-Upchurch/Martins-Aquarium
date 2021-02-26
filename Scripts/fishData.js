@@ -66,13 +66,13 @@ const fishCollection = [
 		saltWater: true,
 		harvestLocation: "Atlantic Ocean",
 		diet: "Plankton",
-		fishName: "Nemo",
+		name: "Nemo",
 		species: "Clownfish",
 		inches: 4,
 		image: "fish.jpg"
 	},
 	{
-		saltwater: false,
+		saltWater: false,
 		harvestLocation: "Mississippi River",
 		diet: "Everything",
 		name: "Vacuum",
@@ -114,7 +114,7 @@ const fishCollection = [
         name: "Dorothy",
         species: "goldfish",
         inches: 3,
-        img: "fish.jpg"
+        image: "fish.jpg"
     },
 	{
 		saltWater: false,
@@ -150,7 +150,7 @@ const fishCollection = [
 		name: "Finn",
 		species: "Bass",
 		inches: 20,
-		image: "fish.jpg",
+		image: "fish.jpg"
 	},
 	{
 		saltWater: true,
@@ -158,7 +158,7 @@ const fishCollection = [
 		name: "Simba",
 		species: "lionfish",
 		harvestLocation: "Red Sea",
-		Inches: 10,
+		inches: 10,
 		image: "fish.jpg"
 	},
 	{
@@ -216,7 +216,7 @@ const fishCollection = [
         image: "fish.jpg"
     },
 	{
-		saltwater: true,
+		saltWater: true,
 		harvestLocation: "St.Croix",
 		diet: "squid",
 		name: "Crush",
@@ -243,7 +243,7 @@ const fishCollection = [
         image: "fish.jpg"
     },
 	{
-		saltwater: true,
+		saltWater: true,
 		harvestLocation: "Baltic Sea",
 		diet: "smaller fish",
 		name: "Fil",
