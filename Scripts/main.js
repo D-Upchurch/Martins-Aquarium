@@ -1,5 +1,8 @@
 
 import { getFish } from "./fishData.js"
+import { fishList } from "./fishList.js"
+
+fishList();
 
 const allTheFish = getFish()
 
