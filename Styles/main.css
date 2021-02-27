@@ -45,6 +45,15 @@ nav a:active {
 	color: lightgreen;
 }
 
+.tips-sidebar {
+	width: 30%;
+  padding-left: 15px;
+  margin-left: 15px;
+  float: right;
+  font-style: italic;
+  background-color: lightgray;
+}
+
 .fishTank {
 	margin: 1em 0;
 	display: flex;

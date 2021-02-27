@@ -1,12 +1,12 @@
 const tipsCollection = [
     {
         action: "Regulate the nitrogen cycle",
-        reason: "The nitrogen cycle is the process in which ammonia is converted by bacteria to nitrite and then to nitrate. Both ammonia and nitrite are toxic to fish, and so having bacteria colonies in your fish tank is essential to convert them harmful compounds to nitrate.To keep the nitrates in low concentration";
+        reason: "The nitrogen cycle is the process in which ammonia is converted by bacteria to nitrite and then to nitrate. Both ammonia and nitrite are toxic to fish, and so having bacteria colonies in your fish tank is essential to convert them harmful compounds to nitrate.To keep the nitrates in low concentration"
         
     },
     {
         action: "Remove dissolved and particulate organic compounds",
-        reason: "Organic matter is classified into dissolved organic matter (DOM) and particulate organic matter (POM). DOM is defined as any organic material which can pass through 0.2 0 1.0 um filters, whilst POM will not pass through. Organic matter includes any waste which is made as a natural by-product of having a tank full of fish which are regularly fed. Just like ammonia is broken down by the colonies of bacteria, so is food waste and other organic matters in your tank.";
+        reason: "Organic matter is classified into dissolved organic matter (DOM) and particulate organic matter (POM). DOM is defined as any organic material which can pass through 0.2 0 1.0 um filters, whilst POM will not pass through. Organic matter includes any waste which is made as a natural by-product of having a tank full of fish which are regularly fed. Just like ammonia is broken down by the colonies of bacteria, so is food waste and other organic matters in your tank."
     },
     {
         action: "To replenish minerals",

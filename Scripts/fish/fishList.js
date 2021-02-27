@@ -1,5 +1,5 @@
-import { Fish } from "./fish/Fish.js"
-import { getFish } from "./fish/fishData.js"
+import { Fish } from './Fish.js'
+import { getFish } from './fishData.js'
 
 
 export const fishList = () => {
