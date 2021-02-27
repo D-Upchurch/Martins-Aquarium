@@ -1,5 +1,5 @@
 console.log("main is loaded");
 
-import { fishList } from "./fishList.js";
+import { fishList } from "./fish/fishList.js";
 
 fishList();
