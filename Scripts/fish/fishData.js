@@ -241,7 +241,7 @@ const fishCollection = [
         species: "Thunnus thynnus",
         inches: 84,
         image: "fish.jpg"
-    },
+    }
 ];
 
 export const getFish = () => {
@@ -251,36 +251,36 @@ export const getFish = () => {
 
 export const getMostHolyFish = () => {
     // 3, 6, 9, 12, etc... fish
-    const holyFishArray = []
+    let holyFishArray = []
 
     for (const fishObj of fishCollection) {
 		if (fishObj.inches % 3 === 0){
 			holyFishArray.push(fishObj)
 		};
-			return holyFishArray
-		};
+	};
+	return holyFishArray
     
 };
 
 export const getSoldierFish = () => {
 	// 5, 10, 15, 20, 25, etc... fish
-	const soldiersArray = [];
+	let soldiersArray = []
 	for (const fishObj of fishCollection) {
 		if (fishObj.inches % 5 === 0 && fishObj.inches % 3 !== 0){
 			soldiersArray.push(fishObj)
 		};
-			return soldiersArray
-		};
+	};
+	return soldiersArray
     
 };
 
 export const getUnworthyFish = () => {
     // Any fish not a multiple of 3 or 5
-	const unworthyArray = []
+	let unworthyArray = []
 	for (const fishObj of fishCollection) {
 		if (fishObj.inches % 5 !== 0 && fishObj.inches % 3 !== 0){
 			unworthyArray.push(fishObj)
 		};
-		return unworthyArray
 	}
+	return unworthyArray
 }
