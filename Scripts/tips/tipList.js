@@ -9,7 +9,6 @@ export const tipList = () => {
         for (const oneTip of tips) {
             tipsHTMLRep += Tips(oneTip);
         };
-        console.log("tipsHTMLRep", tipsHTMLRep);
     sidebar.innerHTML = tipsHTMLRep;
 };
 

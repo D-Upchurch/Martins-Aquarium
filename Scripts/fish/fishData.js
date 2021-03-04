@@ -242,17 +242,45 @@ const fishCollection = [
         inches: 84,
         image: "fish.jpg"
     },
-	{
-		saltWater: true,
-		harvestLocation: "Baltic Sea",
-		diet: "smaller fish",
-		name: "Fil",
-		species: "goldFish",
-		inches: 40,
-		image: "fish.jpg"
-	}
 ];
 
 export const getFish = () => {
     return fishCollection
+};
+
+
+export const getMostHolyFish = () => {
+    // 3, 6, 9, 12, etc... fish
+    const holyFishArray = []
+
+    for (const fishObj of fishCollection) {
+		if (fishObj.inches % 3 === 0){
+			holyFishArray.push(fishObj)
+		};
+			return holyFishArray
+		};
+    
+};
+
+export const getSoldierFish = () => {
+	// 5, 10, 15, 20, 25, etc... fish
+	const soldiersArray = [];
+	for (const fishObj of fishCollection) {
+		if (fishObj.inches % 5 === 0 && fishObj.inches % 3 !== 0){
+			soldiersArray.push(fishObj)
+		};
+			return soldiersArray
+		};
+    
+};
+
+export const getUnworthyFish = () => {
+    // Any fish not a multiple of 3 or 5
+	const unworthyArray = []
+	for (const fishObj of fishCollection) {
+		if (fishObj.inches % 5 !== 0 && fishObj.inches % 3 !== 0){
+			unworthyArray.push(fishObj)
+		};
+		return unworthyArray
+	}
 }
