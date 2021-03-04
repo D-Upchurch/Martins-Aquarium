@@ -1,6 +1,6 @@
 const locationCollection = [
     {
-        locationVisited: "Pacific",
+        locationVisited: "Pacific Ocean",
         locationType: "Ocean",
     },
     {
@@ -8,7 +8,7 @@ const locationCollection = [
         locationType: "Island",
     },
     {
-        locationVisited: "Atlantic",
+        locationVisited: "Atlantic Ocean",
         locationType: "Ocean",
     },
     {
@@ -16,11 +16,11 @@ const locationCollection = [
         locationType: "Gulf",
     },
     {
-        locationVisited: "Amazon",
+        locationVisited: "Amazon River",
         locationType: "River",
     },
     {
-        locationVisited: "Mississipi",
+        locationVisited: "Mississipi River",
         locationType: "River",
     },
     {
@@ -28,7 +28,7 @@ const locationCollection = [
         locationType: "Retailer",
     },
     {
-        locationVisited: "Cumberland",
+        locationVisited: "Cumberland River",
         locationType: "River",
     },
     {
@@ -36,11 +36,11 @@ const locationCollection = [
         locationType: "Retailer",
     },
     {
-        locationVisited: "Tahoe",
+        locationVisited: "Lake Tahoe",
         locationType: "Lake",
     },
     {
-        locationVisited: "Caribbean",
+        locationVisited: "Caribbean Sea",
         locationType: "Sea",
     },
     {
@@ -48,11 +48,11 @@ const locationCollection = [
         locationType: "Island",
     },
     {
-        locationVisited: "Tennessee",
+        locationVisited: "Tennessee River",
         locationType: "River",
     },
     {
-        locationVisited: "Red",
+        locationVisited: "Red Sea",
         locationType: "Sea",
     },
     {
@@ -76,7 +76,7 @@ const locationCollection = [
         locationType: "State",
     },
     {
-        locationVisited: "Baltic",
+        locationVisited: "Baltic Sea",
         locationType: "Sea",
     },
 ];
@@ -84,3 +84,15 @@ const locationCollection = [
 export const getLocation = () => {
     return locationCollection
 };
+
+export const getFilteredLocation = () => {
+    return filteredLocationList
+};
+
+const filteredLocationList = locationCollection.filter(locationObj => { 
+    if (locationObj.locationType === "Ocean" || locationObj.locationType === "Sea")
+        return true
+});
+
+    
+    
